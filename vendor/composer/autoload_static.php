@@ -156,8 +156,8 @@ class ComposerStaticInit89d08f0603e13baddffbdb7c7feea384
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Wikimedia\\Zest\\' => 
         array (
@@ -246,9 +246,9 @@ class ComposerStaticInit89d08f0603e13baddffbdb7c7feea384
         'Wikimedia\\' => 
         array (
             0 => __DIR__ . '/..' . '/wikimedia/ip-set/src',
-            1 => __DIR__ . '/..' . '/wikimedia/scoped-callback/src',
-            2 => __DIR__ . '/..' . '/wikimedia/ip-utils/src',
-            3 => __DIR__ . '/..' . '/wikimedia/running-stat/src',
+            1 => __DIR__ . '/..' . '/wikimedia/ip-utils/src',
+            2 => __DIR__ . '/..' . '/wikimedia/running-stat/src',
+            3 => __DIR__ . '/..' . '/wikimedia/scoped-callback/src',
             4 => __DIR__ . '/..' . '/wikimedia/testing-access-wrapper/src',
             5 => __DIR__ . '/..' . '/wikimedia/wait-condition-loop/src',
             6 => __DIR__ . '/..' . '/wikimedia/wrappedstring/src',
@@ -323,8 +323,8 @@ class ComposerStaticInit89d08f0603e13baddffbdb7c7feea384
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -469,8 +469,8 @@ class ComposerStaticInit89d08f0603e13baddffbdb7c7feea384
         array (
             'Net' => 
             array (
-                0 => __DIR__ . '/..' . '/pear/net_socket',
-                1 => __DIR__ . '/..' . '/pear/net_smtp',
+                0 => __DIR__ . '/..' . '/pear/net_smtp',
+                1 => __DIR__ . '/..' . '/pear/net_socket',
             ),
         ),
         'M' => 

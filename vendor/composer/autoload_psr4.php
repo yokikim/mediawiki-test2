@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/type-resolver/src', $vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'Wikimedia\\Zest\\' => array($vendorDir . '/wikimedia/zest-css/src'),
     'Wikimedia\\XMPReader\\' => array($vendorDir . '/wikimedia/xmp-reader/src'),
     'Wikimedia\\WikiPEG\\' => array($vendorDir . '/wikimedia/wikipeg/src'),
@@ -28,7 +28,7 @@ return array(
     'Wikimedia\\AtEase\\' => array($vendorDir . '/wikimedia/at-ease/src/Wikimedia/AtEase'),
     'Wikimedia\\Assert\\' => array($vendorDir . '/wikimedia/assert/src'),
     'Wikimedia\\Alea\\' => array($vendorDir . '/wikimedia/alea/src'),
-    'Wikimedia\\' => array($vendorDir . '/wikimedia/ip-set/src', $vendorDir . '/wikimedia/scoped-callback/src', $vendorDir . '/wikimedia/ip-utils/src', $vendorDir . '/wikimedia/running-stat/src', $vendorDir . '/wikimedia/testing-access-wrapper/src', $vendorDir . '/wikimedia/wait-condition-loop/src', $vendorDir . '/wikimedia/wrappedstring/src'),
+    'Wikimedia\\' => array($vendorDir . '/wikimedia/ip-set/src', $vendorDir . '/wikimedia/ip-utils/src', $vendorDir . '/wikimedia/running-stat/src', $vendorDir . '/wikimedia/scoped-callback/src', $vendorDir . '/wikimedia/testing-access-wrapper/src', $vendorDir . '/wikimedia/wait-condition-loop/src', $vendorDir . '/wikimedia/wrappedstring/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'WMDE\\HamcrestHtml\\' => array($vendorDir . '/wmde/hamcrest-html-matchers/src'),
     'VarRepresentation\\' => array($vendorDir . '/tysonandre/var_representation_polyfill/src/VarRepresentation'),
@@ -46,7 +46,7 @@ return array(
     'Sabre\\Event\\' => array($vendorDir . '/sabre/event/lib'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src', $vendorDir . '/psr/http-factory/src'),
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-factory/src', $vendorDir . '/psr/http-message/src'),
     'Psr\\Http\\Client\\' => array($vendorDir . '/psr/http-client/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Psr\\Cache\\' => array($vendorDir . '/psr/cache/src'),

@@ -3,7 +3,7 @@
         'name' => 'mediawiki/core',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'da80b908bde1d9a35e2a198766681eeac1579be0',
+        'reference' => 'f0571cf13c28422f6fffd00faf44b126d77a919c',
         'type' => 'mediawiki-core',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -235,7 +235,7 @@
         'mediawiki/core' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'da80b908bde1d9a35e2a198766681eeac1579be0',
+            'reference' => 'f0571cf13c28422f6fffd00faf44b126d77a919c',
             'type' => 'mediawiki-core',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -625,8 +625,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psy/psysh' => array(
