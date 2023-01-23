@@ -65,7 +65,7 @@ phpunit.xml
 
 # Composer
 /vendor
-/composer.lock
+#/composer.lock
 /composer.local.json
 /composer.phar
 
