@@ -1,0 +1,67 @@
+{
+    "name": "giorgiosironi/eris",
+    "description": "PHP library for property-based testing. Integrates with PHPUnit.",
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "info@giorgiosironi.com"
+        },
+        {
+            "name": "Mirko Bonadei",
+            "email": "mirko.bonadei@gmail.com"
+        },
+        {
+            "name": "Gabriele Lana",
+            "email": "gabriele.lana@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=7",
+        "sebastian/comparator": ">=1.2.4",
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "icomefromthenet/reverse-regex": "v0.0.6.3",
+        "phpstan/phpstan": "^1.2",
+        "psalm/phar": "^4.13"
+    },
+    "suggest":
+    {
+        "phpunit/phpunit": "Standard way to run generated test cases",
+        "icomefromthenet/reverse-regex": "v0.0.6.3 for the regex() Generator"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eris\\" : "src/"
+        },
+        "files": [
+            "src/Generator/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eris\\": "test/"
+        }
+    },
+    "scripts": {
+        "cs": [
+            "composer validate --no-check-lock",
+            "composer update",
+            "vendor/bin/php-cs-fixer fix --verbose --diff"
+        ],
+        "test": [
+            "composer validate --no-check-lock",
+            "composer update",
+            "vendor/bin/phpunit test"
+        ],
+        "static": [
+            "vendor/bin/phpstan",
+            "vendor/bin/psalm.phar"
+        ],
+        "phpstan-baseline": [
+            "vendor/bin/phpstan analyse -c phpstan.neon --generate-baseline"
+        ]
+    }
+}

@@ -64,10 +64,10 @@ phpunit.xml
 .phan/local-config.php
 
 # Composer
-/vendor
+#/vendor
 #/composer.lock
-/composer.local.json
-/composer.phar
+#/composer.local.json
+#/composer.phar
 
 # Operating systems
 ## Mac OS X
