@@ -78,7 +78,7 @@
 		"wikimedia/wrappedstring": "4.0.1",
 		"wikimedia/xmp-reader": "0.9.1",
 		"zordius/lightncandy": "1.2.6",
-		"erusev/parsedown": "*",
+		"erusev/parsedown": "1.7.4",
 		"erusev/parsedown-extra": "*",
 		"benjaminhoegh/parsedown-extended": "*"
 	},
