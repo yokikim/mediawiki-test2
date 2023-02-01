@@ -129,7 +129,10 @@
 			"ComposerHookHandler": "includes/composer",
 			"ComposerVendorHtaccessCreator": "includes/composer",
 			"ComposerPhpunitXmlCoverageEdit": "includes/composer"
-		}
+		},
+		"exclude-from-classmap": [
+        "/vendor/erusev/parsedown-extra/test"
+		]
 	},
 	"autoload-dev": {
 		"files": [

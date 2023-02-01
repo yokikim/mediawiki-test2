@@ -4,31 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba14cc2a501897281b0c47652077a17f",
+    "content-hash": "c60be1da2e942d413f85f31ce4d30965",
     "packages": [
         {
             "name": "benjaminhoegh/parsedown-extended",
-            "version": "v1.1.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BenjaminHoegh/ParsedownExtended.git",
-                "reference": "3b17a5d0fd80158dc579681fb0544457b26b3403"
+                "reference": "b738140e124c99d003dabc2bb71bed6c366157b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BenjaminHoegh/ParsedownExtended/zipball/3b17a5d0fd80158dc579681fb0544457b26b3403",
-                "reference": "3b17a5d0fd80158dc579681fb0544457b26b3403",
+                "url": "https://api.github.com/repos/BenjaminHoegh/ParsedownExtended/zipball/b738140e124c99d003dabc2bb71bed6c366157b1",
+                "reference": "b738140e124c99d003dabc2bb71bed6c366157b1",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown": "^1.8-beta-6",
-                "erusev/parsedown-extra": "^0.8.0",
+                "erusev/parsedown": "^1.7",
+                "erusev/parsedown-extra": "^0.8.1",
                 "php": ">=7.2"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "ParsedownExtended": ""
+                    "parsedown-extended": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -44,26 +44,23 @@
             "description": "An extension for Parsedown.",
             "homepage": "https://github.com/benjaminhoegh/parsedown-extended",
             "keywords": [
+                "Parsedown Extra",
                 "markdown",
-                "markdown extended",
+                "markdown extra",
                 "parsedown",
-                "parsedown extended"
+                "parser"
             ],
             "support": {
                 "issues": "https://github.com/BenjaminHoegh/ParsedownExtended/issues",
-                "source": "https://github.com/BenjaminHoegh/ParsedownExtended/tree/v1.1.2"
+                "source": "https://github.com/BenjaminHoegh/ParsedownExtended/tree/v1.1.0"
             },
             "funding": [
                 {
                     "url": "https://paypal.me/BenjaminHoegh",
                     "type": "custom"
-                },
-                {
-                    "url": "https://www.buymeacoffee.com/BenjaminHoegh",
-                    "type": "custom"
                 }
             ],
-            "time": "2022-07-10T07:19:23+00:00"
+            "time": "2021-08-22T10:56:17+00:00"
         },
         {
             "name": "composer/installers",
@@ -344,16 +341,16 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.8.0-beta-7",
+            "version": "1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "fe7a50eceb4a3c867cc9fa9c0aa906b1067d1955"
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/fe7a50eceb4a3c867cc9fa9c0aa906b1067d1955",
-                "reference": "fe7a50eceb4a3c867cc9fa9c0aa906b1067d1955",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
                 "shasum": ""
             },
             "require": {
@@ -388,9 +385,9 @@
             ],
             "support": {
                 "issues": "https://github.com/erusev/parsedown/issues",
-                "source": "https://github.com/erusev/parsedown/tree/1.8.0-beta-7"
+                "source": "https://github.com/erusev/parsedown/tree/1.7.x"
             },
-            "time": "2019-03-17T18:47:21+00:00"
+            "time": "2019-12-30T22:54:17+00:00"
         },
         {
             "name": "erusev/parsedown-extra",
@@ -3009,16 +3006,16 @@
         },
         {
             "name": "wikimedia/parsoid",
-            "version": "v0.17.0-a12",
+            "version": "v0.17.0-a13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/parsoid.git",
-                "reference": "5fb2e33a13eb76eb83a30ebd97cdf3d80198d361"
+                "reference": "65e1fe77a5743277b9bc557a1fd4e96e8ba7b15c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/parsoid/zipball/5fb2e33a13eb76eb83a30ebd97cdf3d80198d361",
-                "reference": "5fb2e33a13eb76eb83a30ebd97cdf3d80198d361",
+                "url": "https://api.github.com/repos/wikimedia/parsoid/zipball/65e1fe77a5743277b9bc557a1fd4e96e8ba7b15c",
+                "reference": "65e1fe77a5743277b9bc557a1fd4e96e8ba7b15c",
                 "shasum": ""
             },
             "require": {
@@ -3086,10 +3083,10 @@
             ],
             "support": {
                 "irc": "irc://irc.libera.chat/mediawiki-parsoid",
-                "source": "https://github.com/wikimedia/parsoid/tree/v0.17.0-a12",
+                "source": "https://github.com/wikimedia/parsoid/tree/v0.17.0-a13",
                 "wiki": "https://www.mediawiki.org/wiki/Parsoid"
             },
-            "time": "2023-01-21T01:06:42+00:00"
+            "time": "2023-01-27T19:26:47+00:00"
         },
         {
             "name": "wikimedia/php-session-serializer",
@@ -6265,16 +6262,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.11",
+            "version": "v0.11.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "ba67f2d26278ec9266a5cfe0acba33a8ca1277ae"
+                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/ba67f2d26278ec9266a5cfe0acba33a8ca1277ae",
-                "reference": "ba67f2d26278ec9266a5cfe0acba33a8ca1277ae",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
+                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
                 "shasum": ""
             },
             "require": {
@@ -6335,9 +6332,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.11"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.12"
             },
-            "time": "2023-01-23T16:14:59+00:00"
+            "time": "2023-01-29T21:24:40+00:00"
         },
         {
             "name": "sabre/event",
@@ -8409,8 +8406,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wikimedia/parsoid": 15,
-        "erusev/parsedown": 10
+        "wikimedia/parsoid": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
