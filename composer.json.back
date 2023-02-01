@@ -77,7 +77,10 @@
 		"wikimedia/wait-condition-loop": "2.0.2",
 		"wikimedia/wrappedstring": "4.0.1",
 		"wikimedia/xmp-reader": "0.9.1",
-		"zordius/lightncandy": "1.2.6"
+		"zordius/lightncandy": "1.2.6",
+#		"erusev/parsedown": "1.7.4",
+#		"erusev/parsedown-extra": "0.8.1",
+#		"benjaminhoegh/parsedown-extended": "*"
 	},
 	"require-dev": {
 		"composer/spdx-licenses": "1.5.7",
@@ -127,6 +130,10 @@
 			"ComposerVendorHtaccessCreator": "includes/composer",
 			"ComposerPhpunitXmlCoverageEdit": "includes/composer"
 		}
+#		},
+#		"exclude-from-classmap": [
+#        "/vendor/erusev/parsedown-extra/test"
+#		]
 	},
 	"autoload-dev": {
 		"files": [

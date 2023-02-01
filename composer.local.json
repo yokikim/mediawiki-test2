@@ -3,8 +3,7 @@
 		"merge-plugin": {
 			"include": [
 				"extensions/*/composer.json",
-				"skins/*/composer.json",
-				"extensions/WikiMarkdown/composer.json"
+				"skins/*/composer.json"
 			]
 		}
 	}
